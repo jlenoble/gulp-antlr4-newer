@@ -24,17 +24,23 @@
     "url": "https://github.com/jlenoble/gulp-antlr4-newer/issues"
   },
   "homepage": "https://github.com/jlenoble/gulp-antlr4-newer#readme",
-  "dependencies": {},
+  "dependencies": {
+    "stat-again": "^0.3.0"
+  },
   "devDependencies": {
     "autoreload-gulp": "*",
     "babel-core": "^6.26.0",
     "babel-plugin-add-module-exports": "*",
     "babel-preset-env": "^1.6.1",
     "chai": "*",
-    "del": "*",
+    "child-process-data": "^0.5.6",
+    "cleanup-wrapper": "^0.2.3",
+    "del": "^3.0.0",
     "eslint-config-google": "*",
     "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-antlr4": "^0.4.5",
     "gulp-babel": "*",
+    "gulp-debug": "^3.1.0",
     "gulp-eslint": "*",
     "gulp-mocha": "*",
     "gulp-rename": "*",
