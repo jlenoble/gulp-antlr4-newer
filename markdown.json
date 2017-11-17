@@ -1,0 +1,7 @@
+{
+  "build": "README.md",
+  "files": ["docs/index.md"],
+  "tableOfContents": {
+    "heading": "# gulp-antlr4-newer\n\nGulp plugin working in combination with gulp-antlr4 to not recreate parser files when grammar is untouched"
+  }
+}

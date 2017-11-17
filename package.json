@@ -1,0 +1,49 @@
+{
+  "name": "gulp-antlr4-newer",
+  "description": "Gulp plugin working in combination with gulp-antlr4 to not recreate parser files when grammar is untouched",
+  "version": "0.0.0",
+  "keywords": [],
+  "author": {
+    "name": "Jason Lenoble",
+    "email": "jason.lenoble@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "main": "lib/gulp-antlr4-newer.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jlenoble/gulp-antlr4-newer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlenoble/gulp-antlr4-newer/issues"
+  },
+  "homepage": "https://github.com/jlenoble/gulp-antlr4-newer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoreload-gulp": "*",
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "*",
+    "babel-preset-env": "^1.6.1",
+    "chai": "*",
+    "del": "*",
+    "eslint-config-google": "*",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-babel": "*",
+    "gulp-eslint": "*",
+    "gulp-mocha": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-wrap": "*",
+    "markdown-include": "*",
+    "muter": "*",
+    "plumb-gulp": "*"
+  },
+  "peerDependencies": {}
+}
