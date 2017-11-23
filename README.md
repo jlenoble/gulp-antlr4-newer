@@ -7,7 +7,7 @@ Gulp plugin working in combination with gulp-antlr4 to not recreate parser files
 
 
 ## Usage
-S
+
 `gulp-antlr4-newer` gulp plugin filters` `.g4` grammar files according to timestamps. If they are newer than the corresponding parser or lexer files, they are passed through. Otherwise, they are removed from the stream.
 
 ```js
